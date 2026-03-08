@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4a8e4a; /* Зелёный цвет, как природа */
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #3b703b;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+nav a:hover {
+    background-color: #5ca05c;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.animal-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #fff;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1rem;
+}
+
+#tickets button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#tickets button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #4a8e4a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
